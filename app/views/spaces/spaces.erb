@@ -1,13 +1,11 @@
 <h1>Book a Space</h1>
 <p></p>
 
-
 <button href='/spaces/new' type="button">List a Space</button>
 
-<form action='/spaces/spaces' method='get'>
-  <input name="available_from" type="date" placeholder="Available from">
-  <input name="available_to" type="date" placeholder="Available to">
-  <input type="submit" value="List Spaces">
+<form action='/spaces' method='post'>
+  <input name="available_on" type="date" placeholder="Available on">
+  <input type="submit" value="Filter Spaces">
 </form>
 
 <ul id='spaces'>

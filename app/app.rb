@@ -4,6 +4,7 @@ ENV["RACK_ENV"] ||= "development"
 require 'sinatra/base'
 
 # App related here:
+require_relative 'helpers'
 require_relative 'data_mapper_setup'
 require_relative 'server'
 
