@@ -1,7 +1,6 @@
 # Makers B & B
 
 ## Concept
-### Headline specifications
 [x] Any signed-up user can list a new space </br>
 [x] Users can list multiple spaces </br>
 [x] Users should be able to name their space, provide a short description of the space, and a price per night </br>
