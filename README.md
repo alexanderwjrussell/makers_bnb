@@ -1,75 +1,39 @@
 # Makers B & B
 
-## User Stories
+## Concept
+### Headline specifications
 
-### Signing Up
-```
-As a user,
-In order to use the service,
-I need to be able to sign up.
-```
-#### Solution
-Objects	            | Messages
----                 | ---
-User                | Create a new User class with required properties
-Signing Up          | Form: name, email, password, password_confirmation
-Password Protection | Set up BCrypt
-Database            | makers_bnb_development && makers_bnb_test
+[x] Any signed-up user can list a new space.
+[x] Users can list multiple spaces.
+[x] Users should be able to name their space, provide a short description of the space, and a price per night.
+[x] Users should be able to offer a range of dates where their space is available.
+[x] Any signed-up user can request to hire any space for one night, and this should be approved by the user that owns that space.
+[ ] Nights for which a space has already been booked should not be available for users to book that space.
+[ ] Until a user has confirmed a booking request, that space can still be booked for that night.
 
+## Product development
+### App Flow Diagram
+Makers were kind enough to give us a work flow diagram to work from.
+![Screenshot](screenshots/WorkFlowDiagram.png "Work Flow Diagram")
+### Trello
+Agile methodologies were used. Particularly Scrum and Kanban. Below is the workboard we used to keep track of what tasks were required and who was working on them.</br>
+![Screenshot](screenshots/TrelloBoard.png "Trello Board")
 
-### Signing In
-```
-As a signed up user,
-In order to be able to find listings,
-I need to be able to sign in.
-```
-#### Solution
-Objects	              | Messages
----                   | ---
-Signing In            | Form: email, password
-Password Verification | Use BCrypt to authenticate user password from the database
+## Product Screenshots
+#### Landing Page
+![Screenshot](screenshots/LandingPage.png "Landing Page")
 
+#### Registration
+![Screenshot](screenshots/Registration.png "Registration")
 
-### Signing Out
-```
-As a signed in user,
-So I can have more security,
-I would like to be able to sign out.
-```
-#### Solution
+#### Login
+![Screenshot](screenshots/Login.png "Login")
 
+#### Signed In
+![Screenshot](screenshots/SignedInPage.png "Signed In Page")
 
-### List a Space
-```
-As a signed in user,
-I would like to be able to list my space,
-So other users could view it on the home page.
-```
-#### Solution
+#### List A Space
+![Screenshot](screenshots/ListASpace.png "List A Space")
 
-
-### View Listings
-```
-As a signed in user,
-So I can make my decisions,
-I would like to see all the listings as the home screen.
-```
-#### Solution
-
-
-### Request a Listing
-```
-As a signed in user,
-So I can book a space,
-I would like to be able to make requests on listings.
-```
-#### Solution
-
-
-### Respond to Requests
-```
-As a signed in user,
-When I have had a request,
-I would like to be able to respond (accept or decline).
-```
-#### Solution
+#### Individual Property Page
+![Screenshot](screenshots/IndividualPropertyPage.png "Individual Property Page")
